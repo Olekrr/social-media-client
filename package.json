@@ -6,8 +6,6 @@
   "scripts": {
     "build": "sass src/scss:dist/css",
     "start": "sass --watch src/scss:dist/css & live-server",
-    "format": "prettier -w src/js/index.js",
-    "lint": "eslint src/**/*.js",
     "prepare": "husky install"
   },
   "keywords": [],
@@ -26,7 +24,13 @@
   },
   "lint-staged": {
     "*.js": [
-      "eslint --cache --fix",
+      "prettier --write",
+      "eslint --fix"
+    ],
+    "*.html": [
+      "prettier --write"
+    ],
+    "*.scss": [
       "prettier --write"
     ]
   }
