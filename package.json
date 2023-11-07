@@ -8,7 +8,7 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "prepare": "husky install",
     "test": "npm run test-unit",
-    "test-unit": "jest"
+    "test-unit": "jest --coverage"
   },
   "keywords": [],
   "author": "Noroff",
