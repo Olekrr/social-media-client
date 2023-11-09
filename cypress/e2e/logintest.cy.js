@@ -14,5 +14,7 @@ describe("Login Test", () => {
     cy.get("#loginForm").within(() => {
       cy.root().submit();
     });
+
+    cy.window().its("localStorage").invoke("getItem", "token").should("exist");
   });
 });
