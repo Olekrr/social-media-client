@@ -8,7 +8,9 @@
     "start": "sass --watch src/scss:dist/css & live-server",
     "prepare": "husky install",
     "test": "npm run test-unit",
-    "test-unit": "jest --coverage"
+    "test-unit": "jest --coverage",
+    "teste2e": "npm run test-e2e",
+    "test-e2e": "cypress open"
   },
   "keywords": [],
   "author": "Noroff",
