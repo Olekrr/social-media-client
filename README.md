@@ -23,17 +23,13 @@ This project contains a front end for the noroff api, unit tests for login and l
 
 1. Clone the repository:
 
-```bash
-git clone https://yourrepositorylink.git
-```
-
 2. Install dependencies:
 
 ```bash
 npm install
 ```
 
-### Executing program
+### How to use
 
 - Build the project which compiles SCSS to CSS:
 
@@ -50,13 +46,19 @@ npm start
 - Run unit tests:
 
 ```bash
-npm test
+npm run test-unit
 ```
 
 - Run end-to-end tests with Cypress:
 
 ```bash
-npm run teste2e
+npm run test-e2e
+```
+
+- Run run unit test & end-to-end test:
+
+```bash
+npm run test
 ```
 
 ## Help
@@ -69,20 +71,22 @@ Noroff
 
 
 ## Version History
+- 1.3.2
+  - Added automation for unit & end-to-end tests
 
 - 1.3.1
   - Added README.md documentation
 
 - 1.3.0
   - Added end to end tests for:
-        logging in
-        logging in with invalid credentials
-        logging out
+        -logging in
+        -logging in with invalid credentials
+        -logging out
         
 - 1.2.0
   - Added unit-tests for:
-        login function
-        logout function
+        -login function
+        -logout function
 
 - 1.1.6
   - added coverage/ to gitignore
