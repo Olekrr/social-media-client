@@ -6,6 +6,11 @@ This repository contains the workflow course assignment, it takes an existing fr
 
 This project contains a front end for the noroff api, unit tests for login and logout functions, end to end tests for login and logout credentials. It contains github actions for building and deploying, as well as automatic linting and code formatting.
 
+## Workflows
+
+[![Automated E2E Testing](https://github.com/Olekrr/social-media-client/actions/workflows/e2e-test.yml/badge.svg)](https://github.com/Olekrr/social-media-client/actions/workflows/e2e-test.yml)
+[![Automated Unit Testing](https://github.com/Olekrr/social-media-client/actions/workflows/unit-test.yml/badge.svg)](https://github.com/Olekrr/social-media-client/actions/workflows/unit-test.yml)
+
 ## Getting Started
 
 ### Dependencies
